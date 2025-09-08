@@ -9,6 +9,5 @@ function changePage(){
     } else {
         myHeadline.style.color = "blue";
         myHeadline.innerHTML = "Hello World!";
-    }
-    
+    }   
 }
