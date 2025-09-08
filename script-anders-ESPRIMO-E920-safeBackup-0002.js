@@ -8,7 +8,6 @@ const buttonTextHello ="Klicka mig!"
 const buttonTextGoodbye ="Klicka mig igen!"
 
 myHeadline.innerHTML = hello;
-button.innerHTML = buttonTextHello
 
 button.addEventListener("click", changePage);
 
@@ -16,10 +15,9 @@ function changePage(){
     if (myHeadline.innerHTML == hello) {
         myHeadline.style.color = goodbyeColor;
         myHeadline.innerHTML = goodbye;
-        button.innerHTML = buttonTextGoodbye;
+        button.innerHTML = button
     } else {
         myHeadline.style.color = helloColor;
         myHeadline.innerHTML = hello;
-        button.innerHTML = buttonTextHello
     }   
 }

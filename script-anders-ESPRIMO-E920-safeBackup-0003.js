@@ -8,7 +8,7 @@ const buttonTextHello ="Klicka mig!"
 const buttonTextGoodbye ="Klicka mig igen!"
 
 myHeadline.innerHTML = hello;
-button.innerHTML = buttonTextHello
+button.i
 
 button.addEventListener("click", changePage);
 
