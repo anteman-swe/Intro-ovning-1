@@ -1,7 +1,9 @@
+/* Styling av rubriken */
 h1{
     color: blue;
 }
+/* Styling av knappen */
 button{
-    width: 200px;
+    width: 220px;
     text-align: center;
 }
